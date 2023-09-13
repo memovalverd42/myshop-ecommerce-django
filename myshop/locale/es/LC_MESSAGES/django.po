@@ -1,0 +1,272 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-11 21:18-0600\n"
+"PO-Revision-Date: 2023-09-12 03:22+0000\n"
+"Last-Translator:   <guillermovalverde42@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.9.8\n"
+
+#: cart/forms.py:11
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: coupons/forms.py:5
+msgid "Coupon"
+msgstr "Cupón"
+
+#: myshop/settings.py:160
+msgid "English"
+msgstr "Inglés"
+
+#: myshop/settings.py:161
+msgid "Spanish"
+msgstr "Español"
+
+#: myshop/urls.py:11
+msgid "cart/"
+msgstr "carro/"
+
+#: myshop/urls.py:12
+msgid "orders/"
+msgstr "pedidos/"
+
+#: myshop/urls.py:13
+msgid "payment/"
+msgstr "pago/"
+
+#: myshop/urls.py:14
+msgid "coupons/"
+msgstr "cupon/"
+
+#: orders/models.py:11
+msgid "first_name"
+msgstr "nombre"
+
+#: orders/models.py:12
+msgid "last_name"
+msgstr "apellido"
+
+#: orders/models.py:13
+msgid "e-mail"
+msgstr "correo"
+
+#: orders/models.py:14
+msgid "address"
+msgstr "dirección"
+
+#: orders/models.py:15
+msgid "postal code"
+msgstr "codigo postal"
+
+#: orders/models.py:16
+msgid "city"
+msgstr "ciudad"
+
+#: orders/models.py:17
+msgid "created"
+msgstr "creado"
+
+#: orders/models.py:18
+#| msgid "Update"
+msgid "updated"
+msgstr "Actualizar"
+
+#: orders/models.py:19
+msgid "paid"
+msgstr "pagado"
+
+#: orders/models.py:20
+msgid "stripe id"
+msgstr "stripe id"
+
+#: orders/templates/orders/order/create.html:4
+#: orders/templates/orders/order/create.html:8
+msgid "Checkout"
+msgstr "Comprar"
+
+#: orders/templates/orders/order/create.html:10
+#, fuzzy
+#| msgid "Pay your order"
+msgid "Your order"
+msgstr "Pague su compra"
+
+#: orders/templates/orders/order/create.html:21
+#, python-format
+#| msgid ""
+#| "\n"
+#| "              \"%(code)s\" (%(discount)s%% off)\n"
+#| "            "
+msgid ""
+"\n"
+"                    \"%(code)s\" (%(discount)s%% off%%)\n"
+"                "
+msgstr ""
+"\n"
+"\"%(code)s\" (%(discount)s%% descuento%%)   "
+
+#: orders/templates/orders/order/create.html:28
+msgid "Total"
+msgstr "Total"
+
+#: orders/templates/orders/order/create.html:32
+#| msgid "Pay your order"
+msgid "Place order"
+msgstr "Pague su compra"
+
+#: orders/urls.py:8
+msgid "create/"
+msgstr "crear/"
+
+#: payment/urls.py:9
+msgid "process/"
+msgstr "procesar/"
+
+#: payment/urls.py:10
+msgid "completed/"
+msgstr "completado/"
+
+#: payment/urls.py:11
+msgid "canceled/"
+msgstr "cancelado/"
+
+#: shop/templates/shop/base.html:9 shop/templates/shop/base.html:14
+msgid "My Shop"
+msgstr "Mi Tienda"
+
+#: shop/templates/shop/base.html:20
+#| msgid "Your cart"
+msgid "Your Cart"
+msgstr "Su carro"
+
+#: shop/templates/shop/base.html:22
+#, python-format
+#| msgid ""
+#| "\n"
+#| "                %(items)s item, $%(total)s\n"
+#| "              "
+#| msgid_plural ""
+#| "\n"
+#| "                %(items)s items, $%(total)s\n"
+#| "              "
+msgid ""
+"\n"
+"                            %(items)s item, $%(total)s\n"
+"                        "
+msgid_plural ""
+"\n"
+"                            %(items)s items, $%(total)s\n"
+"                        "
+msgstr[0] ""
+"\n"
+"                %(items)s producto, $%(total)s\n"
+"              "
+msgstr[1] ""
+"\n"
+"                %(items)s productos, $%(total)s\n"
+"              "
+
+#: shop/templates/shop/base.html:29
+#, fuzzy
+#| msgid "Your cart is empty."
+msgid "Your cart is empty"
+msgstr "Su carro está vacío."
+
+#: shop/templates/shop/product/detail.html:21
+msgid "Add to cart"
+msgstr "Añadir al carro"
+
+#: shop/templates/shop/product/detail.html:27
+msgid "People who bought this also bought"
+msgstr "Personas que compraron esto también compraron"
+
+#~ msgid "Your shopping cart"
+#~ msgstr "Su carro"
+
+#~ msgid "Image"
+#~ msgstr "Imagen"
+
+#~ msgid "Product"
+#~ msgstr "Producto"
+
+#~ msgid "Remove"
+#~ msgstr "Eliminar"
+
+#~ msgid "Unit price"
+#~ msgstr "Precio unitario"
+
+#~ msgid "Price"
+#~ msgstr "Precio"
+
+#~ msgid "Subtotal"
+#~ msgstr "Subtotal"
+
+#, python-format
+#~ msgid ""
+#~ "\n"
+#~ "              \"%(code)s\" coupon (%(discount)s%% off)\n"
+#~ "            "
+#~ msgstr ""
+#~ "\n"
+#~ "              Cupón \"%(code)s\" (%(discount)s%% descuento)\n"
+#~ "            "
+
+#~ msgid "Apply a coupon"
+#~ msgstr "Aplicar cupón"
+
+#~ msgid "Apply"
+#~ msgstr "Aplicar"
+
+#~ msgid "Continue shopping"
+#~ msgstr "Continuar comprando"
+
+#~ msgid "Payment canceled"
+#~ msgstr "Pago cancelado"
+
+#~ msgid "Your payment has not been processed"
+#~ msgstr "Su pago no ha sido procesado"
+
+#~ msgid "There was a problem processing your payment."
+#~ msgstr "Ha habido un problema con el procesamiento del pago."
+
+#~ msgid "Payment successful"
+#~ msgstr "Pago realizado"
+
+#~ msgid "Your payment was successful"
+#~ msgstr "Su pago ha sido realizado"
+
+#~ msgid "Your payment has been processed successfully."
+#~ msgstr "Su pago se ha procesado correctamente."
+
+#~ msgid "Order summary"
+#~ msgstr "Resumen de compra"
+
+#~ msgid "Pay now"
+#~ msgstr "Pagar ahora"
+
+#~ msgid "My shop"
+#~ msgstr "Mi tienda"
+
+#~ msgid "Language"
+#~ msgstr "Idioma"
+
+#~ msgid "Products"
+#~ msgstr "Productos"
+
+#~ msgid "Categories"
+#~ msgstr "Categorías"
+
+#~ msgid "All"
+#~ msgstr "Todos"
